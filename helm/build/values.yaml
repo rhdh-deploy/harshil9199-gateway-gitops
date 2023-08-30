@@ -1,0 +1,15 @@
+app:
+  name: harshil9199-poi-gateway-app
+  namespace: harshil9199
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/harshil9199-gateway
+  org: rhdh-deploy
+  name: harshil9199-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: harshil9199/poi-gateway-app
+  tag: latest
